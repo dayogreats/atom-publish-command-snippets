@@ -2,23 +2,24 @@
 Quick command snippets for publishing Atom Package.
 
 
+#### Steps to create and publish atom package/ theme
 
-command-shift-P > Package > Package Generator: Generate Syntax Theme > mypackage
+  * command-shift-P > Package > Package Generator: Generate Syntax Theme > mypackage
 
-cd ~/.atom/packages/mypackage
+  * cd ~/.atom/packages/mypackage
 
-apm login
+  * apm login
 
-apm develop mypackage
+  * apm develop mypackage
 
-cd ~/github/mypackage
+  * cd ~/github/mypackage
 
-sudo chown -R username:wheel .
+  * sudo chown -R username:wheel .
 
-git commit -a -m 'checking everything in'
+  *  git commit -a -m 'checking everything in'
 
-apm publish --tag v2.5.0 minor
+  *  apm publish --tag v2.5.0 minor
 
-apm publish minor
+  * apm publish minor
 
-apm publish major
+  * apm publish major
